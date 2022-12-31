@@ -1,0 +1,53 @@
+.portfolio{
+    border: 1px rgb(77, 77, 77) solid;
+    border-radius: 5px;
+    margin: 40px;
+    padding: 30px;
+    width: 1200px;
+    height: 800px;
+   
+    background-color: white;
+  
+
+}
+.main{
+
+    display: flex;
+    margin-top: 60px;
+    height: 900px;
+    
+    background-color: rgb(113, 112, 112);
+    
+}
+
+.portfolio_images{
+    
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+
+     
+
+}
+h3{
+    position: absolute;
+    bottom: 20px;
+    padding: 10px;
+ 
+    background-color: lightseagreen;
+    color: white;
+    width: 300px;
+    text-align: center;
+}
+.portfolio_images_image img{
+    position: relative;
+    width:300px ;
+    height: 300px;
+
+    
+}
+.portfolio_images_image{
+    position: relative;
+}
